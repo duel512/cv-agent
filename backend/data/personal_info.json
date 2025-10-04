@@ -1,0 +1,137 @@
+{
+  "name": "Ruomu Shao",
+  "title": "Network & Full-Stack Engineer",
+  "contact": {
+    "email": "shaoruomu19@gmail.com",
+    "phone": "+64 290 202 1530",
+    "linkedin": "https://www.linkedin.com/in/ruomu-shao-71878124b/",
+    "github": "https://github.com/duel512",
+    "location": "Auckland, New Zealand"
+  },
+  "summary": "Mid-level Network & Full-Stack Engineer (3+ years) with solid telecom background and hands-on AWS cloud experience. Proven in delivering customer-facing AI voice workflows, PBX/VoIP solutions and JavaScript extensions. Skilled across routing, AWS serverless, React/Next.js and database integrations. Seeking network/telecom/software hybrid roles where I can bridge infrastructure and code to drive service reliability.",
+  "education": [
+    {
+      "degree": "Master of Science",
+      "field": "Electrical Engineering (Telecommunications)",
+      "institution": "University of New South Wales",
+      "location": "Sydney, Australia",
+      "graduation_date": "2021 - 2023",
+      "gpa": "83/100 (Top 5%)",
+      "honors": ["Top 5% of cohort"],
+      "relevant_coursework": ["Telecommunications", "Network Engineering", "Signal Processing"]
+    },
+    {
+      "degree": "Bachelor of Science",
+      "field": "Electrical & Computer Engineering",
+      "institution": "Beijing University of Posts and Telecommunications (BUPT)",
+      "location": "Beijing, China",
+      "graduation_date": "2017 - 2021",
+      "gpa": "80/100",
+      "honors": [],
+      "relevant_coursework": ["Computer Networks", "Embedded Systems", "Digital Signal Processing"]
+    }
+  ],
+  "experience": [
+    {
+      "title": "Network Engineer",
+      "company": "Telnet Telecommunication",
+      "location": "Auckland, New Zealand",
+      "duration": "April 2024 - Present",
+      "description": "Managing L3+ infrastructure and developing AI-powered solutions for ISP operations",
+      "achievements": [
+        "Manage L3+ infrastructure including BGP routing, VoIP/PBX systems, and complex network troubleshooting across ISP operations",
+        "Developed AI-powered email assistance system using OpenAI API fine-tuning with RAG integration, reducing support response time by 70%",
+        "Built automated order management microservices for subscription pull/cancellation workflows, eliminating manual processing delays",
+        "Integrated AWS Connect with on-premise PBX systems, improving customer call routing and reducing transfer times by 35%"
+      ]
+    },
+    {
+      "title": "Intern Engineer",
+      "company": "Lactalis",
+      "location": "Sydney, Australia",
+      "duration": "December 2022 - February 2023",
+      "description": "Industrial automation and process optimization",
+      "achievements": [
+        "Optimized PLC logic on filling line, boosting throughput by 8%"
+      ]
+    }
+  ],
+  "skills": {
+    "networking_telecom": ["L2/L3 routing", "VLAN", "BGP", "OSPF", "L2TP", "SIP", "PBX (FreePBX/3CX)", "Chorus APIs"],
+    "cloud_devops": ["AWS Bedrock", "AWS Connect", "AWS Lambda", "AWS S3", "AWS IAM", "Docker", "Linux", "CI/CD", "GitHub Actions"],
+    "programming_languages": ["Python", "JavaScript", "TypeScript", "Node.js", "Bash"],
+    "frameworks_libraries": ["React", "Next.js", "LangChain", "PyTorch", "TensorFlow"],
+    "tools_platforms": ["Git", "Postman", "Wireshark", "JIRA", "RESTful API", "Agile/Scrum"]
+  },
+  "projects": [
+    {
+      "name": "AWS-based AI Voice Workflow for Broadband Support",
+      "description": "Built serverless workflow enabling customers to self-check fibre status via phone using AI voice interaction",
+      "technologies": ["AWS Bedrock", "AWS Connect", "AWS Lambda", "Python", "S3", "Chorus Line Test API", "GitHub Actions", "AWS SAM"],
+      "highlights": [
+        "Integrated Telnet CRM and Chorus Line Test API to provide real-time fibre status information",
+        "Achieved 40% IVR self-resolution rate in first month of deployment",
+        "Implemented CI/CD pipeline with GitHub Actions and Infrastructure as Code via AWS SAM"
+      ],
+      "link": "",
+      "duration": "2024 - 2025"
+    },
+    {
+      "name": "GPT-Powered Email Reply Chrome Extension",
+      "description": "Developed JavaScript extension that calls fine-tuned GPT model to draft email replies based on previous email threads",
+      "technologies": ["JavaScript", "Chrome Manifest V3", "OpenAI GPT", "Fine-tuning"],
+      "highlights": [
+        "Reduced average support reply drafting time from 5 minutes to 1 minute",
+        "Deployed to over 15 support agents at Telnet Telecommunication"
+      ],
+      "link": "",
+      "duration": "2024"
+    },
+    {
+      "name": "AI Prompt Sharing Website",
+      "description": "Full-stack web application for sharing and discovering AI prompts with social features",
+      "technologies": ["React", "Next.js", "MongoDB", "Tailwind CSS", "Google OAuth", "Vercel"],
+      "highlights": [
+        "Implemented user authentication via Google OAuth",
+        "Deployed on Vercel with full responsive design"
+      ],
+      "link": "",
+      "duration": "2023"
+    }
+  ],
+  "publications": [],
+  "certifications": [
+    {
+      "name": "Cisco Certified Network Professional (CCNP) Enterprise",
+      "issuer": "Cisco",
+      "date": "March 2025"
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "proficiency": "Proficient (PTE 84)"
+    },
+    {
+      "language": "Mandarin",
+      "proficiency": "Native"
+    }
+  ],
+  "interests": [
+    "Network automation and infrastructure as code",
+    "AI/ML applications in telecommunications",
+    "Full-stack development with cloud integration",
+    "VoIP and unified communications"
+  ],
+  "additional_info": {
+    "career_goals": "Seeking network/telecom/software hybrid roles where I can bridge infrastructure and code to drive service reliability. Particularly interested in positions that combine networking expertise with cloud architecture and software development.",
+    "work_authorization": "New Zealand Residence Visa (no work restrictions)",
+    "availability": "Currently employed, available for new opportunities with appropriate notice period",
+    "personality": "Self-driven engineer who proactively identifies problems and builds solutions. Combines deep technical networking knowledge with full-stack development skills. Strong communicator capable of translating complex technical concepts to non-technical stakeholders. Thrives in fast-paced environments requiring both independent problem-solving and team collaboration.",
+    "fun_facts": [
+      "Hold an Australian Driver's License and enjoy road trips exploring New Zealand",
+      "Built multiple AI-powered tools that are actively used in production by my current team",
+      "Achieved CCNP Enterprise certification in 2025, demonstrating commitment to networking excellence"
+    ]
+  }
+}

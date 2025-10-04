@@ -1,0 +1,191 @@
+\documentclass[letterpaper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{multicol}
+\input{glyphtounicode}
+
+\usepackage[default]{sourcesanspro}
+\usepackage[T1]{fontenc}
+
+\pagestyle{fancy}
+\fancyhf{} 
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-4pt}\centering
+}{}{0em}{}[\color{black}\titlerule\vspace{-5pt}]
+
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+
+% ===== 顶部 =====
+\begin{center}
+  {\LARGE Ruomu Shao}\\
+  Auckland, New Zealand \\
+  \href{mailto:shaoruomu19@gmail.com}{shaoruomu19@gmail.com} \quad | \quad +64 290 202 1530 \\
+  \href{https://github.com/duel512}{GitHub: duel512} \quad | \quad
+  \href{https://www.linkedin.com/in/ruomu-shao-71878124b/}{LinkedIn: ruomu-shao} \\
+  NZ Residence Visa (no work restricts) \;•\; AU Driver Licence
+\end{center}
+
+% ===== PRO SUMMARY =====
+\vspace{-4pt}
+\section*{Professional Summary}
+\begin{itemize}[leftmargin=0.15in,label={}]
+  \small \item{
+  Mid-level Network \& Full-Stack Engineer (3+ yrs) with solid telecom background and hands-on AWS cloud experience.  
+  Proven in delivering customer-facing AI voice workflows, PBX/VoIP solutions and JavaScript extensions.  
+  Skilled across routing, AWS serverless, React/Next.js and database integrations.  
+  Seeking network / telecom / software hybrid roles where I can bridge infrastructure and code to drive service reliability.
+  }
+\end{itemize}
+
+% ===== KEY SKILLS =====
+\section{Key Technical Skills}
+\begin{itemize}[leftmargin=0.15in,label={}]
+\small \item{
+\textbf{Networking / Telecom:} L2/L3 routing, VLAN, BGP, OSPF, L2TP, SIP, PBX (FreePBX / 3CX), Chorus APIs \\
+\textbf{Cloud & DevOps:} AWS (Bedrock, Connect, Lambda, S3, IAM), Docker, Linux, CI/CD (GitHub Actions) \\
+\textbf{Programming:} Python, JavaScript/TypeScript, React, Next.js, Node.js, Bash \\
+\textbf{Data & AI:} GPT fine-tuning, LangChain, PyTorch, TensorFlow, RESTful API integration \\
+\textbf{Tools:} Git, Postman, Wireshark, JIRA, Agile/Scrum \\
+\textbf{Certifications:} CCNP Enterprise (2025)
+}
+\end{itemize}
+
+% ===== Certifications （新增）=====
+\section{Certifications}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {Cisco Certified Network Professional (CCNP) Enterprise}{Mar 2025}
+    {}{}
+\resumeSubHeadingListEnd
+
+% ===== EXPERIENCE =====
+\section{Experience}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {Network Engineer}{Apr 2024 -- Present}
+    {Telnet Telecommunication}{Auckland, NZ}
+    \resumeItemListStart
+      \resumeItem{Manage L3+ infrastructure including BGP routing, VoIP/PBX systems, and complex network troubleshooting across ISP operations.}
+      \resumeItem{Developed AI-powered email assistance system using OpenAI API fine-tuning with RAG integration, reducing support response time by 70\%.}
+      \resumeItem{Built automated order management microservices for subscription pull/cancellation workflows, eliminating manual processing delays.}
+      \resumeItem{Integrated AWS Connect with on-premise PBX systems, improving customer call routing and reducing transfer times by 35\%.}
+    \resumeItemListEnd
+
+  \resumeSubheading
+    {Intern Engineer}{Dec 2022 -- Feb 2023}
+    {Lactalis}{Sydney, AU}
+    \resumeItemListStart
+      \resumeItem{Optimised PLC logic on filling line; boosted throughput by 8\%.}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+% ===== EDUCATION =====
+\section{Education}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {M.Sc.\ Electrical Engineering (Telecom), \textnormal{University of New South Wales}}{2021 -- 2023}
+    {Sydney, AU}{GPA 83/100 (Top 5\%)}
+  \resumeSubheading
+    {B.Sc.\ Electrical \& Computer Engineering, \textnormal{BUPT}}{2017 -- 2021}
+    {Beijing, CN}{GPA 80/100}
+\resumeSubHeadingListEnd
+
+% ===== PROJECTS =====
+\section{Selected Projects (self-initiated within role)}
+\resumeSubHeadingListStart
+  \resumeProjectHeading
+    {\textbf{AWS-based AI Voice Workflow for Broadband Support}}{2024 -- 2025}
+    \resumeItemListStart
+      \resumeItem{Built serverless workflow using \textbf{AWS Bedrock}, \textbf{AWS Connect}, Lambda (Python) and S3, enabling customers to self-check fibre status via phone.}
+      \resumeItem{Integrated Telnet CRM and \textbf{Chorus Line Test API}; achieved 40\% IVR self-resolution rate in first month.}
+      \resumeItem{Implemented CI/CD with GitHub Actions; IaC via AWS SAM.}
+    \resumeItemListEnd
+
+  \resumeProjectHeading
+    {\textbf{GPT-Powered Email Reply Chrome Extension}}{2024}
+    \resumeItemListStart
+      \resumeItem{Developed JavaScript/Manifest V3 extension that calls fine-tuned GPT model to draft replies based on previous email threads.}
+      \resumeItem{Reduced average support reply drafting time from 5 min to 1 min for >15 agents.}
+    \resumeItemListEnd
+
+  \resumeProjectHeading
+    {\textbf{AI Prompt Sharing Website}}{2023}
+    \resumeItemListStart
+      \resumeItem{React + Next.js app with MongoDB and Tailwind; OAuth via Google; deployed on Vercel.}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+
+
+% ===== LANGUAGES =====
+\section{Languages}
+\begin{itemize}[leftmargin=0.15in,label={}]
+  \small \item{English (Proficient, PTE 84)\quad •\quad Mandarin (Native)}
+\end{itemize}
+
+\end{document}
