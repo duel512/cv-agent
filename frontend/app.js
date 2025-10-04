@@ -1,7 +1,8 @@
 // Configuration
+// Replace 'your-railway-app' with your actual Railway URL after deployment
 const API_BASE_URL = window.location.hostname === 'localhost'
     ? 'http://localhost:8000'
-    : 'https://your-railway-app.up.railway.app'; // Replace with your Railway URL after deployment
+    : 'https://your-railway-app.up.railway.app';
 
 // State management
 let conversationHistory = [];
